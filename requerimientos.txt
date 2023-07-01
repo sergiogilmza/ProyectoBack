@@ -1,0 +1,43 @@
+---  powershell----
+
+python --version
+
+pip --version
+
+pip install virtualenv
+
+virtaulenv nombre_proyecto
+
+cd nombre_proyecto
+
+cd Scripts
+
+en scripts
+./activate
+
+cd .. para volver a nombre_proyecto
+
+code . 
+
+
+Si tiene error de activar 
+
+https://www.cdmon.com/es/blog/la-ejecucion-de-scripts-esta-deshabilitada-en-este-sistema-te-contamos-como-actuar
+
+EN VSC
+
+https://marketplace.visualstudio.com/items?itemName=Postman.postman-for-vscode
+
+Abrir la terminal
+
+pip install flask flask-sqlalchemy flask-marshmallow marshmallow-sqlalchemy pymysql  -U flask-cors
+
+
+
+.gitignore
+# created by virtualenv automatically
+# *
+/Lib
+/Scripts
+/include
+pyvenv.cfg
