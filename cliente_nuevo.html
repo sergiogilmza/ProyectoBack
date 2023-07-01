@@ -8,16 +8,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./CSS/clientes.css">
+    <link rel="icon" type="image/png" href="./imagenes/icon.png"> 
+
 </head>
 
-<body>
+<body id="body">
     <header id="header">
         <!-- place navbar here -->
     </header>
-    <main>
+    <main id="main">
         <div class="container" id="app">
-            <form style="background-color: aliceblue;margin:10px auto ; width: 400px; padding: 20px;">
-                <h1>Alta de Cliente</h1>
+            <!--<form id="form" style="background-color: aliceblue;margin:10px auto ; width: 400px; padding: 20px;">-->
+            <form id="form">    
+                <h1 id="nuevo">Alta de Cliente</h1>
                 <div class="mb-3">
                     <label for="nomape">Nombre y Apellido</label>
                     <input type="text" name="nomape" id="nomape" v-model="nomape" required>
@@ -44,7 +49,7 @@
                     <img width="100" :src="imagen" alt="">
                 </div>
 
-                <button type="button" class="btn btn-success" v-on:click="grabar()">Grabar</button>
+                <button id="button" type="button" class="btn btn-success" v-on:click="grabar()">Grabar</button>
             </form>
 
 
@@ -53,8 +58,19 @@
 
     </main>
     <footer>
-        <!-- place footer here -->
-    </footer>
+        <a class="redsoc" href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+        <a class="redsoc" href="https://www.facebook.com/profile.php?id=100068077059952" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        <a class="redsoc" href="https://www.whatsapp.com" target="_blank"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+        <a class="redsoc" href="https://www.instagram.com/lgt_performance" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        <a class="redsoc" href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+        <br>
+        <h6>GRUPO 2 - Márquez Alvaro / Félix Nobile / Anna Fragalá / Sergio Gil / Priscila Cali </h6>
+        <p> 
+             Sitio web editado por GRUPO2 -
+             Copyright ® 2023 
+        </p>
+    <!-- place footer here -->
+</footer>
     <!-- Bootstrap JavaScript Libraries -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>

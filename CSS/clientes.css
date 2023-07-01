@@ -1,0 +1,86 @@
+#body{
+    
+    background-image: linear-gradient(
+      115deg,
+      rgba(11, 11, 11, 0.984),
+      rgba(34, 34, 38, 0.766)
+    ), url(../imagenes/tablerohd3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 1px;
+    margin-bottom: -20px;
+    min-height: 450px;
+    width: 100%; 
+    height: 100%;
+       
+}
+
+#form{
+    
+    background-image: linear-gradient(
+      115deg,
+      rgba(11, 11, 11, 0.984),
+      rgba(34, 34, 38, 0.766)
+    ), url(../imagenes/tablerohd3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 1px;
+    margin-bottom: -20px;
+    min-height: 450px;
+    width: 100%; 
+    height: 100%;
+       
+}
+main h1{
+    color: white;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 20px;
+}
+
+#parrafos{
+    color: white;
+}
+
+#tr{
+    color:white;
+}
+
+#td{
+    color:white;
+}
+
+#nuevo{
+    color:rgb(246, 244, 244);
+}
+
+#editar{
+    color: white;
+}
+
+#p{
+    color:white;
+    text-align: center; 
+}
+
+*label{
+    color:white; 
+}
+.mb-3{
+    color:white;
+    text-align: center;
+}
+
+#button{
+    margin-left: 50%;
+}
+
+
+footer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding: 40px;
+}
+
