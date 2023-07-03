@@ -20,8 +20,9 @@
         <main>
             <div class="container" id="app">
                 <!--<form style="background-color: aliceblue;margin:10px auto ; width: 400px; padding: 20px;">-->
-                <form id="form">    
+                <form id="form">
                     <h1 id="editar"> Editar Cliente </h1>
+                    <p>Modificaras:{{nomape}}</p>
                     <div class="mb-3">
                         <label for="id">Id</label>
                         <input type="number" name="id" id="id" disabled v-model="id">
@@ -43,7 +44,7 @@
                         <input type="text" name="direccion" id="direccion" v-model="direccion" required>
                     </div>
                     <div class="mb-3">
-                        <label for="sueldo">Sueldo</label>
+                        <label for="sueldo">Presupuesto</label>
                         <input type="number" name="sueldo" id="sueldo" v-model="sueldo">
                     </div>
                     <div class="mb-3">
@@ -63,12 +64,11 @@
             <a class="redsoc" href="https://www.linkedin.com" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
             <br>
             <h6>GRUPO 2 - Márquez Alvaro / Félix Nobile / Anna Fragalá / Sergio Gil / Priscila Cali </h6>
-            <p> 
-                 Sitio web editado por GRUPO2 -
-                 Copyright ® 2023 
+            <p>
+                Sitio web editado por GRUPO2 - Copyright ® 2023
             </p>
-        <!-- place footer here -->
-        </footer> 
+            <!-- place footer here -->
+        </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
         </script>

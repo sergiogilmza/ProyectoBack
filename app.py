@@ -62,7 +62,7 @@ def get_Clientes():
 
 @app.route('/clientes/<id>',methods=['GET']) #CONSULTA UN REGISTRO
 def get_cliente(id):
-    cliente=cliente.query.get(id)
+    cliente=Clientes.query.get(id)
     return cliente_schema.jsonify(cliente)   # retorna el JSON de un producto recibido como parametro
 
 
