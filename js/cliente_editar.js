@@ -37,7 +37,7 @@ createApp({
         modificar() {
             opcion = confirm("Confirma modificar datos del cliente?");
             if (opcion == true) {
-                let cliente = {
+                let clientes = {
                     nomape: this.nomape,
                     edad: this.edad,
                     dni: this.dni,
@@ -46,7 +46,7 @@ createApp({
                     imagen: this.imagen
                 }
                 var options = {
-                    body: JSON.stringify(cliente),
+                    body: JSON.stringify(clientes),
                     method: 'PUT',
                     headers: { 'Content-Type': 'application/json' },
                     redirect: 'follow'
